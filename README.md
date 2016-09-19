@@ -55,7 +55,7 @@ Set cookie validation key in `config/web.php` file to some random secret string:
 You can then access the application through the following URL:
 
 ~~~
-http://localhost/basic/web/
+http://localhost/yii2app-pariyat/
 ~~~
 
 
@@ -75,7 +75,7 @@ Now you should be able to access the application through the following URL, assu
 directly under the Web root.
 
 ~~~
-http://localhost/basic/web/
+http://localhost/yii2app-pariyat/
 ~~~
 
 
@@ -89,7 +89,7 @@ Edit the file `config/db.php` with real data, for example:
 ```php
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+    'dsn' => 'mysql:host=localhost;dbname=pariyatdb',
     'username' => 'root',
     'password' => '1234',
     'charset' => 'utf8',
